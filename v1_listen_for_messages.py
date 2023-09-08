@@ -1,7 +1,10 @@
 """
+Lindsey Sullivan - 9/7/23
 
 Listens for messages on the queue.
 This process runs continuously. 
+
+
 
 Approach
 ---------
@@ -31,7 +34,7 @@ import pika, sys, os
 def main():
     # create a blocking connection to the RabbitMQ server
     connection = pika.BlockingConnection(
-        pika.ConnectionParameters(host="looooocalhost")
+        pika.ConnectionParameters(host="localhost")
     )
     # use the connection to create a communication channel
     channel = connection.channel()

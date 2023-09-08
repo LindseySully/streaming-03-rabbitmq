@@ -1,0 +1,8 @@
+2023-09-07 21:28:51,014.v2_emit_message.INFO ==================================================
+2023-09-07 21:28:51,014.v2_emit_message.INFO Today is 2023-09-07 at 09:28 PM
+2023-09-07 21:28:51,014.v2_emit_message.INFO Running on: posix Darwin 22.6.0
+2023-09-07 21:28:51,014.v2_emit_message.INFO Python version:  3.9.12
+2023-09-07 21:28:51,014.v2_emit_message.INFO Python path: /Users/lindseysullivan/miniconda3
+2023-09-07 21:28:51,014.v2_emit_message.INFO Working dir: /Users/lindseysullivan/Documents/School/Streaming-Data/Modules/streaming-03-rabbitmq
+2023-09-07 21:28:51,014.v2_emit_message.INFO ==================================================
+2023-09-07 21:28:51,041.v2_emit_message.INFO  [x] Sent Hello World!

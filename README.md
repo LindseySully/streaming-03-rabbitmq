@@ -1,5 +1,8 @@
 # streaming-03-rabbitmq
 
+## Student Name: Lindsey Sullivan
+## GitHub Repository: https://github.com/LindseySully/streaming-03-rabbitmq
+
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
 This project requires some free code - beyond that available in the Python Standard Library. To avoid messing up our local default Python installation, and any other Python projects we may have, we  create a local virtual environment to install and use these libraries.
@@ -102,7 +105,8 @@ We can execute additional commands in the terminal as soon as it finishes.
 
 You'll need to fix an error in the program to get it to run.
 Once it runs successfully, will it terminate on its own? How do you know? 
-As long as the process is running, we cannot use this terminal for other commands. 
+    - No, this program does not terminate on it's own. The terminal window produces information that says to use ctrl+c to exit. 
+    - As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Task 8. Open a New Terminal / Emit More Messages
 
@@ -113,6 +117,9 @@ As long as the process is running, we cannot use this terminal for other command
 Sending the same message each time is kind of boring. This time:
 
 1. Where is the message defined? How can you change it?
+    - Line 19 changes the contents of a message
+    - Line 22 changes the console's print information
+    - Both can be updated for accuracy
 1. Modify emit_message.py to emit a different message. 
 1. Execute the updated emit_message.py. 
 1. Watch what happens in the listening terminal.
@@ -148,15 +155,22 @@ Each of the version 2 programs include an error as well.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
 1. Imports should be one per line - why?
+    - Reduces merge conflicts
 1. Then, define your functions.
 1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
+    - The v1 & v2 emit_message will always close the connections using the conn.close() function. Whereas the listen_for_message file only close the connection when user interrupts the process.
 1. Search GitHub for if __name__ == "__main__":
 1. How many hits did you get? 
+    - 9.2 million
 1. Learn and understand this common Python idiom.
+
+## Screenshots
+![Alt text](Screenshot-Multiple-Terminals.png)
+
 
 ## Reference
 
